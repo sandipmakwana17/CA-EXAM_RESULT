@@ -8,11 +8,11 @@ const Home = () => {
   const reloadPage = () => {
     window.location.reload();
   };
-    const router = useRouter()
+  const router = useRouter();
 
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gray-100">
-      <Loader/>
+      <Loader />
       {/* Header */}
       <header className="bg-purple-700 text-white py-4 text-center relative">
         <div className="flex justify-center items-center gap-4">
@@ -62,7 +62,7 @@ const Home = () => {
 
         {/* Reload Button */}
         <button
-          onClick={()=>router.push("/serverDown")}
+          onClick={() => router.push("/serverDown")}
           className="mt-6 bg-purple-700 text-white px-6 py-2 rounded-md hover:bg-purple-800 transition"
         >
           Check Result
@@ -77,14 +77,7 @@ const Home = () => {
           result by the Institute which accepts no responsibility thereafter for
           errors or omissions caused as a result of their transmission via the
           Internet or their downloading or printing by the user. No material
-          from this web site can be copied, reproduced, published, uploaded,
-          posted, transmitted or distributed or dealt with in any manner, unless
-          expressly authorized. Users are not permitted to change, modify or
-          prepare derivative works from the content of this site. For any
-          clarifications / confirmation please address your enquiries to Joint
-          Secretary (Examinations),The Institute of Chartered Accountants of
-          India, 'ICAI BHAWAN', Post Box No. 7112, Indraprastha Marg, New Delhi
-          - 110 002{" "}
+          from this web site can be copied, reproduced, published,
         </p>
       </footer>
     </div>
