@@ -57,7 +57,7 @@ const Home = () => {
           <p>
             <strong>Intermediate Examination</strong> : Jan 2025
           </p>
-          <p className="text-green-600">Announced on 04th March 2025</p>
+          <p className="text-green-600">Announced on 19th March 2025</p>
         </div>
 
         {/* Reload Button */}
