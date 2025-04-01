@@ -36,17 +36,17 @@ const Home = () => {
           <p>
             <strong>Foundation</strong> : Jan 2025
           </p>
-          <p className="text-green-600">Announced on 04th March 2025</p>
+          <p className="text-green-600">Announced on 12th March 2025</p>
 
           <p>
             <strong>Intermediate Examination</strong> : Jan 2025
           </p>
-          <p className="text-green-600">Announced on 04th March 2025</p>
+          <p className="text-green-600">Announced on 07th March 2025</p>
 
           <p>
-            <strong>Intermediate Examination - UNITS</strong> : Jan 2025
+            <strong>Final Examination </strong> : Jan 2025
           </p>
-          <p className="text-green-600">Announced on 04th March 2025</p>
+          <p className="text-green-600">Announced on 19th March 2025</p>
         </div>
 
         {/* Merit List */}
@@ -55,7 +55,7 @@ const Home = () => {
             CHECK MERIT LIST
           </h2>
           <p>
-            <strong>Intermediate Examination</strong> : Jan 2025
+            <strong>Final Examination</strong> : Jan 2025
           </p>
           <p className="text-green-600">Announced on 19th March 2025</p>
         </div>
